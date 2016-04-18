@@ -1,0 +1,24 @@
+{
+  "name": "knit-it",
+  "version": "0.0.1",
+  "appPath": "app",
+  "dependencies": {
+    "jquery": "~2.2.2",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "fontawesome#~4.6.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.min.css"
+      ]
+    },
+    "font-awesome":{
+      "main":[
+        "css/font-awesome.min.css",
+        "fonts/*"
+      ]
+    }
+  }
+}
